@@ -5,6 +5,11 @@
     <title>Char's Website</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="index.js" type="text/javascript"></script>
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
 
 </head>
 
@@ -34,27 +39,106 @@
             </div>
             <!-- End #lead-content -->
             <div class="icons">
-                <a class="resume" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img
+                <a class="resume" href="https://drive.google.com/file/d/1r1pIBG4MSfO6M5XjT8Sa8IO4tnKQAv-D/view?usp=sharing"><img
                         src="./Image-Folder/icons8-opened-folder-64.png" width="65" height="65"></a>
             </div>
-            <div class= "stickers">
-                <a class="github" href="https://github.com/charnewman17"><img
-                    src="./Image-Folder/github-line-32.png" width="40" height="40"></a>
+            <div class="stickers">
+                <a class="github" href="https://github.com/charnewman17"><img src="./Image-Folder/github-line-32.png"
+                        width="40" height="40"></a>
                 <a class="linkedin" href="www.linkedin.com/in/charlotte-newman-cn2026"><img
-                    src="./Image-Folder/hiclipart.com.png" width="40" height="40"></a>
+                        src="./Image-Folder/hiclipart.com.png" width="40" height="40"></a>
             </div>
         </div>
         <!-- End #lead -->
     </div>
-    <div class="about-me">
-    <h1>
-        <br>
-        About Me
-    </h1>
-    <p>
-        Hi! My name is Charlotte and I am a software engineer (in training) from New York City! I have interests in Data Science and Software Engineering. My passions are music and statistics.
-    </p>
-    </div>  
+
+
+    <section id="education">
+        <h3 class="section-title white-text blue-background">
+
+        </h3>
+        <div class="cards-container">
+
+            <div class="card">
+                <h4>
+                    <span class="dot" id="red"></span>
+                    <span class="dot" id="yellow"></span>
+                    <span class="dot" id="green"></span>
+                </h4>
+                <div class="tab">
+                    <button class="tablinks trapezoid" onclick="openTab(event, 'About')" id="defaultOpen">About Me</button>
+                    <button class="tablinks trapezoid" onclick="openTab(event, 'Education')">Education</button>
+                    <button class="tablinks trapezoid" onclick="openTab(event, 'Work')">Work Experience</button>
+                    <button class="tablinks trapezoid" onclick="openTab(event, 'Projects')">My Projects</button>
+                </div>
+
+
+
+                <!-- Tab content -->
+                <div id="Education" class="tabcontent">
+                    <h3>Education</h3>
+                    <div class="card-pad">
+                        <div class="card-header">
+                            Rensselear Polytechnic Institute
+                            <br>
+                            Bachlors of Science: Computer Science, Mathmatics
+                            <br>
+                            Minor: Economics of Quantative Modeling
+                            <br>
+                            Class of 2026 (Expected)
+                        </div>
+                        <div class="card-body">
+                            <ul class="browser-default">
+                                <li>
+                                    Cumulative Average: 3.4
+                                </li>
+                                <li>
+                                    ACM-W Corporate Relations Chair
+                                    Scheduled 2 Workshopping Events
+                                </li>
+                                <li>RPI Math Club Outreach Manager
+                                    Organized and Ran a Latex Workshop for 40 Students
+                                    Restarted the club after being inactive for 3 years</li>
+
+                                <li> Member of Pi Mu Epsilon (Mathematics Honor Society) </li>
+                                <li>MIT EnergyHack 2022: Decarbonize the Built Environment
+                                    Semi-Finalist With Honorable Mention out of 100 international teams
+                                    Create Communications Strategy; Quantify Environmental Impact, Cost Savings, and
+                                    Payback
+                                    Period for Tynt Technologies (Dynamically Tintable Windows)</li>
+
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="experience-location">
+                                Troy, New York
+                            </span>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="About" class="tabcontent">
+                    <div class = "card-pad ">
+                        <div class="card-body">
+                            Hi! My name is Charlotte and I am a software engineer (in training) from New York City! I have interests in
+                Data Science and Software Engineering. My passions are music and statistics.
+                        </div>
+                    </div>    
+                </div>
+                <div id="Work Experience" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
 
     <footer class="footer">
         <div class="footer-content">
@@ -65,5 +149,20 @@
         </div>
     </footer>
 </body>
+
+<!--
+
+     <div class="about-me">
+        <h1>
+            <br>
+            About Me
+        </h1>
+        <p>
+            Hi! My name is Charlotte and I am a software engineer (in training) from New York City! I have interests in
+            Data Science and Software Engineering. My passions are music and statistics.
+        </p>
+    </div>
+-->
+
 
 </html>

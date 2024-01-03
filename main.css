@@ -213,3 +213,191 @@ a.linkedin img {
     font-size: 1.7em;
   }
 }
+
+
+
+
+.body-text, .cards-container {
+  font-family: Futura, 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+
+#header-container { 
+  width: 100%;
+  text-align: center; /* ensures the image is always in the h-middle */ 
+  overflow: hidden; /* hide the cropped portion */ 
+} 
+
+
+.white-text {
+  color: #f2f2f2;
+}
+
+.blue-background {
+  background-color: #021b33;
+}
+
+.text-container {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.cards-container {
+  width: 100%;
+}   
+
+.card {
+  width: 85%;
+  background-color: #f2f0eb;
+  
+  font-size: 1.15rem;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-pad {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.card-header {
+  padding-top: 1rem;
+  border-bottom: 1px solid #ddd;
+  font-weight: 400;
+}
+
+.card-body {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+.card-footer {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+.company-description {
+  font-style: italic;
+}
+
+#contact-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-logo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.dot {
+  height: 11px;
+  width: 11px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: .5rem;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: .5rem;
+  margin: 0;
+  text-transform: uppercase;
+  background-color: #021b33;
+}
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  /*background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 4px 16px;
+  transition: 0.3s;
+  font-family: Futura, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  background-color: #3c1e1e;*/
+  
+  border-bottom: 30px solid #555;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 125px;
+
+
+
+
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#red {
+  background-color: #d00000;
+}
+#yellow {
+  background-color: #fdff78;
+}
+#green {
+  background-color: #02c23f;
+}
+
+.trapezoid {
+  border-bottom: 3px solid transparent;
+  border-Top: 3px solid transparent;
+  border-left: 180px solid #166bbf;
+  height: 40px;
+}
